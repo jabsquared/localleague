@@ -1,0 +1,44 @@
+@import "../../global/variables";
+
+//Textoverlay effect
+
+// .padded-multiline {
+//   background: url(http://i2.cdn.turner.com/cnnnext/dam/assets/111017060721-giant-panda-bamboo-story-top.jpg);
+//   line-height: 1.4;
+//   padding: 120px 50px 50px 50px;
+//   width: 400px;
+//   margin: 20px auto;
+// }
+//
+.padded-multiline span {
+  border-radius: 45px;
+  background-color: $black;
+  // color: #fff;
+  display: inline;
+  padding: 0.5rem;
+
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Portfolio */
+.portfolio {
+  padding: 50px 0;
+  background-color: $white;
+  h2 {
+    color: $black;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.img-portfolio:hover {
+  opacity: 0.8;
+}

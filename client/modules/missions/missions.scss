@@ -1,0 +1,18 @@
+@import "../../global/variables";
+/* Services */
+.missions {
+  padding: 45px 0;
+  background-color: $white;
+  color: $black;
+}
+
+.mission-item {
+  margin-bottom: 27px;
+
+  p {
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+
+  }
+}

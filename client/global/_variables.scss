@@ -1,0 +1,29 @@
+// All the Global Variables Reside here
+$black: #292929;
+$orange: #ffd966;
+$white: #ffffff;
+$light-gray: #e5e5e5;
+
+@mixin placeholder-color {
+  ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: $light-gray;
+  }
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $light-gray;
+    opacity: 1;
+  }
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: $light-gray;
+    opacity: 1;
+  }
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $light-gray;
+  }
+}

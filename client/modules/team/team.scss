@@ -1,0 +1,44 @@
+@import "../../global/variables";
+
+.team {
+  color: $white;
+  padding: 45px 0;
+
+  .icon {
+    // float: right;
+    width: 27vw;
+    // height: 45px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  a {
+    text-decoration: none;
+
+    p {
+      height: 72px;
+    }
+  }
+
+  img {
+
+    // background-color: $black;
+    border-radius: 99px;
+    border-style: none;
+    height: 99px;
+    width: 99px;
+    margin: 9px;
+
+    // cursor: pointer;
+  }
+
+  img:hover,
+  img:active,
+  img:focus {
+
+    // opacity: 0.72;
+    // box-shadow: 1.8px 1.8px 1.8px $white;
+    // height: 135px;
+    // width: 135px;
+  }
+}

@@ -1,0 +1,61 @@
+@import "../../global/variables";
+/* Footer */
+footer {
+  padding: 100px 0;
+  color: $white;
+
+  img {
+    width: 45vw;
+  }
+
+  form {
+    // margin: 0 auto;
+    // width: 81vw;
+    // label {
+    //   font-size: 36px;
+    //   color: $white;
+    // }
+
+    input {
+      // border-radius: 45px !important;
+
+      background-color: $black !important;
+      border-bottom-left-radius: 45px !important;
+      border-top-left-radius: 45px !important;
+      // width: 45vw;
+      border-color: transparent !important;
+    }
+
+    input:focus {
+      color: $white !important;
+      border-color: $orange !important;
+    }
+
+    button {
+      border-bottom-left-radius: 4.5px !important;
+      border-top-left-radius: 4.5px !important;
+      width: 100% !important;
+    }
+
+    .no-pan-btn {
+      padding-left: 0 !important;
+    }
+    .no-pan-inp {
+      padding-right: 4.5px !important;
+    }
+  }
+
+  .call {
+    color: $black;
+  }
+}
+
+a {
+  color: $black;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: $white;
+}
