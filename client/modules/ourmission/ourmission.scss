@@ -42,3 +42,22 @@
 .img-portfolio:hover {
   opacity: 0.8;
 }
+
+
+
+.ourmission {
+  padding: 45px 0;
+  background-color: blue;
+  color: $black;
+}
+
+.ourmission {
+  margin-bottom: 27px;
+
+  p {
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+
+  }
+}
