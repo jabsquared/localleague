@@ -23,27 +23,32 @@
 /* Global Styles */
 html,
 body {
-  width: 100%;
-  height: 100%;
-  // background-color: tan;
-  background: -webkit-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
-  /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
-  /* IE10 */
-  background: -o-linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
-  /* Opera 11.10+ */
-  background: linear-gradient(90deg, #ddd6f3 10%, #faaca8 90%);
-  /* W3C */
-  font-family: 'SCP' ,'Helvetica Neue',Helvetica,Arial, sans-serif;
+  background-image: url('http://s17.postimg.org/he9bsfdwv/hello3.png');
+  background-size:cover;
+  // padding-top: 100px;
 
+}
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 1);
 }
 
 .text-vertical-center {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  padding-top: 150px;
 }
 
 .text-vertical-center h1 {

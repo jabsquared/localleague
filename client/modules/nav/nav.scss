@@ -63,11 +63,16 @@
     position: fixed;
     top: 0;
     right: 0;
+    background-color: transparent;
+
+
+
   }
 
   #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
+background-color:  transparentize(black, 0.5);
   }
 
   .toggle {
@@ -75,5 +80,5 @@
   }
 
   .toggle:hover {
-    color: white;
+    color: red;
   }

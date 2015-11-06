@@ -13,10 +13,7 @@
   // background-size: cover;
   // -o-background-size: cover;
   img {
-    width: 100%;
-    min-width: 90px;
-    max-width: 13.5vw;
-
+    width: 50%;
     // max-width: 180px;
     // top: 50%;
   }
@@ -30,4 +27,12 @@
   }
 
   @include placeholder-color;
+}
+
+.btn {
+
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  border-radius: 100px;
 }
