@@ -46,12 +46,19 @@ footer {
   }
 
   .call {
-    color: $black;
+    color: $white;
+    font-weight: bolder;
+    font-size: 45px;
+  }
+
+  .cpr {
+    color: white;
   }
 }
 
 a {
   color: $black;
+  font-weight: bold;
 }
 
 a:hover,
