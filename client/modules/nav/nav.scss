@@ -63,7 +63,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: transparent;
+  color: $white;
 }
 
 #sidebar-wrapper.active {
@@ -77,5 +77,11 @@
 }
 
 .toggle:hover {
-  color: white;
+  color: $black;
+  background-color: $white;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  border-radius: 100px;
 }
