@@ -28,28 +28,12 @@ body {
   // padding-top: 100px;
 
 }
-.overlay {
-  position: relative;
-}
-
-.overlay:after {
-  content: " ";
-  z-index: 10;
-  display: block;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 1);
-}
 
 .text-vertical-center {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  padding-top: 150px;
-}
+  }
 
 .text-vertical-center h1 {
   margin: 0;
@@ -162,4 +146,7 @@ hr.small {
 
 .call-to-action .btn {
   margin: 10px;
+}
+.btn {
+  margin-bottom: 240px;
 }

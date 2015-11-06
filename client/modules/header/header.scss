@@ -16,6 +16,7 @@
     width: 50%;
     // max-width: 180px;
     // top: 50%;
+    padding-top: 200px;
   }
 
   h3 {
@@ -29,10 +30,6 @@
   @include placeholder-color;
 }
 
-.btn {
-
-}
-
 .btn-lg, .btn-group-lg > .btn {
-  border-radius: 100px;
+  border-radius: 230px;
 }
