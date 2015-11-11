@@ -1,28 +1,43 @@
 <template name="nav" class="nav">
-  <a class="btn btn-lg toggle" href="#" id="menu-toggle">
-    <i class="fa fa-plus"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a class="btn btn-light btn-lg pull-right toggle" href="#" id="menu-close">
-        <i class="fa fa-times"></i>
-      </a>
-      <li class="sidebar-brand">
-        <a href="#top" onclick="$('#menu-close').click();">Sarah</a>
-      </li>
-      <li>
-        <a href="#about" onclick="$('#menu-close').click();">Intro</a>
-      </li>
-      <li>
-        <a href="#missions" onclick="$('#menu-close').click();">About</a>
-      </li>
-      <li>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#top">Local League</a>
+          </div>
 
-        <a href="#ourmission" onclick="$('#menu-close').click();">Mission</a>
-      </li>
-      <li>
-        <a href="#footer" onclick="$('#menu-close').click();">Sign up</a>
-      </li>
-    </ul>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="#top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#missions">Services</a>
+                  </li>
+                  <!-- <li>
+                      <a class="page-scroll" href="#portfolio">Portfolio</a>
+                  </li> -->
+                  <li>
+                      <a class="page-scroll" href="#about">Path to Success</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#team">Testamonials</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
   </nav>
+
 </template>

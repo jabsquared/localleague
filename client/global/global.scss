@@ -12,6 +12,11 @@
   src: url('fonts/poireto/PoiretOne-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Hussar';
+  src: url('fonts/hussar/hussarbd-web.ttf');
+}
+
 * {
   -webkit-transition: all 0.45s ease 0s;
   -moz-transition: all 0.45s ease 0s;
@@ -27,8 +32,20 @@ body {
   height: 100%;
   background-image: url('http://s17.postimg.org/he9bsfdwv/hello3.png');
   background-size: cover;
+
   // padding-top: 100px;
   font-family: 'SCP';
+}
+
+.text-primary {
+  color: $brand-primary;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: darken($brand-primary, 10%);
 }
 
 .text-vertical-center {
@@ -105,6 +122,31 @@ hr.small {
   border-radius: 0;
 }
 
+
+/* Margin for Nav bar*/
+section {
+    padding: 100px 0;
+    h2.section-heading {
+		font-size: 40px;
+		margin-top: 0;
+		margin-bottom: 15px;
+    }
+    h3.section-subheading {
+		font-size: 16px;
+		text-transform: none;
+		font-style: italic;
+		font-weight: 400;
+		margin-bottom: 75px;
+    }
+}
+
+@media(min-width:768px) {
+	section {
+		padding: 150px 0;
+	}
+}
+
+
 /* Callout */
 .callout {
   display: table;
@@ -148,4 +190,27 @@ hr.small {
 
 .call-to-action .btn {
   margin: 10px;
+}
+
+// Highlight Color Customization
+ ::-moz-selection {
+  text-shadow: none;
+  background: $brand-primary;
+}
+
+ ::selection {
+  text-shadow: none;
+  background: $brand-primary;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  webkit-tap-highlight-color: $brand-primary;
 }

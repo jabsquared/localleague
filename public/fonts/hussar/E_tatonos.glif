@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etatonos" format="1">
+  <advance width="973"/>
+  <unicode hex="0389"/>
+  <outline>
+    <contour>
+      <point x="505" y="331" type="line"/>
+      <point x="456" y="0" type="line"/>
+      <point x="268" y="0" type="line"/>
+      <point x="390" y="825" type="line"/>
+      <point x="578" y="825" type="line"/>
+      <point x="529" y="496" type="line"/>
+      <point x="795" y="496" type="line"/>
+      <point x="844" y="825" type="line"/>
+      <point x="1032" y="825" type="line"/>
+      <point x="910" y="0" type="line"/>
+      <point x="722" y="0" type="line"/>
+      <point x="771" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="146" y="738" type="line"/>
+      <point x="294" y="982" type="line"/>
+      <point x="415" y="915" type="line"/>
+      <point x="222" y="691" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>331</integer>
+            <key>width</key>
+            <integer>165</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>805</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

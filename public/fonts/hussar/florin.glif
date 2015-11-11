@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin" format="1">
+  <advance width="657"/>
+  <unicode hex="0192"/>
+  <outline>
+    <contour>
+      <point x="459" y="296" type="line"/>
+      <point x="459" y="125"/>
+      <point x="85" y="-131"/>
+      <point x="13" y="-151" type="curve"/>
+      <point x="60" y="8" type="line"/>
+      <point x="137" y="56"/>
+      <point x="274" y="204"/>
+      <point x="277" y="296" type="curve"/>
+      <point x="203" y="296" type="line"/>
+      <point x="267" y="446" type="line"/>
+      <point x="323" y="446" type="line"/>
+      <point x="338" y="548"/>
+      <point x="584" y="768"/>
+      <point x="726" y="755" type="curve"/>
+      <point x="677" y="596" type="line"/>
+      <point x="663" y="642"/>
+      <point x="505" y="515"/>
+      <point x="505" y="446" type="curve"/>
+      <point x="649" y="446" type="line"/>
+      <point x="585" y="296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>296</integer>
+            <key>width</key>
+            <integer>150</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

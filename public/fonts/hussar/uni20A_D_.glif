@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20AD" format="1">
+  <advance width="895"/>
+  <unicode hex="20AD"/>
+  <outline>
+    <contour>
+      <point x="856" y="0" type="line"/>
+      <point x="596" y="0" type="line"/>
+      <point x="400" y="340" type="line"/>
+      <point x="342" y="340" type="line"/>
+      <point x="292" y="0" type="line"/>
+      <point x="104" y="0" type="line"/>
+      <point x="154" y="340" type="line"/>
+      <point x="96" y="340" type="line"/>
+      <point x="119" y="493" type="line"/>
+      <point x="177" y="493" type="line"/>
+      <point x="226" y="825" type="line"/>
+      <point x="414" y="825" type="line"/>
+      <point x="365" y="493" type="line"/>
+      <point x="417" y="493" type="line"/>
+      <point x="698" y="825" type="line"/>
+      <point x="926" y="825" type="line"/>
+      <point x="634" y="493" type="line"/>
+      <point x="789" y="493" type="line"/>
+      <point x="766" y="340" type="line"/>
+      <point x="622" y="340" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>340</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>805</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

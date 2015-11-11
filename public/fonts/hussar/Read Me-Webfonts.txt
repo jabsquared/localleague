@@ -1,0 +1,1 @@
+﻿The Webfonts in this package are from version 2.21, as the version 2.27 webfonts failed to generate properly.

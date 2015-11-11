@@ -4,6 +4,13 @@ $orange: #ffd966;
 $white: #ffffff;
 $light-gray: #e5e5e5;
 
+$brand-primary: #fed136;
+$brand-danger: #e74c3c;
+$gray-darkest: #222;
+$gray: #777;
+$gray-lighter: #f7f7f7;
+$placeholder-text: #bbbbbb;
+
 @mixin placeholder-color {
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */

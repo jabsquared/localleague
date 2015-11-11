@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine" format="1">
+  <advance width="466"/>
+  <unicode hex="00AA"/>
+  <outline>
+    <contour>
+      <point x="259" y="667" type="curve" smooth="yes"/>
+      <point x="253" y="625"/>
+      <point x="278" y="595"/>
+      <point x="321" y="595" type="curve" smooth="yes"/>
+      <point x="362" y="595"/>
+      <point x="396" y="625"/>
+      <point x="402" y="667" type="curve" smooth="yes"/>
+      <point x="408" y="710"/>
+      <point x="382" y="739"/>
+      <point x="342" y="739" type="curve" smooth="yes"/>
+      <point x="302" y="739"/>
+      <point x="265" y="710"/>
+    </contour>
+    <contour>
+      <point x="524" y="785" type="curve" smooth="yes"/>
+      <point x="484" y="513" type="line"/>
+      <point x="379" y="513" type="line"/>
+      <point x="384" y="548" type="line"/>
+      <point x="357" y="523"/>
+      <point x="317" y="504"/>
+      <point x="275" y="504" type="curve" smooth="yes"/>
+      <point x="185" y="504"/>
+      <point x="133" y="577"/>
+      <point x="146" y="667" type="curve" smooth="yes"/>
+      <point x="159" y="757"/>
+      <point x="234" y="830"/>
+      <point x="324" y="830" type="curve" smooth="yes"/>
+      <point x="365" y="830"/>
+      <point x="532" y="837"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>504</integer>
+            <key>width</key>
+            <integer>91</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>513</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>739</integer>
+            <key>width</key>
+            <integer>91</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

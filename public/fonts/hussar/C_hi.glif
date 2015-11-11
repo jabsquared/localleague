@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Chi" format="1">
+  <advance width="936"/>
+  <unicode hex="03A7"/>
+  <outline>
+    <contour>
+      <point x="901" y="0" type="line"/>
+      <point x="659" y="0" type="line"/>
+      <point x="504" y="281" type="line"/>
+      <point x="269" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
+      <point x="413" y="444" type="line"/>
+      <point x="209" y="825" type="line"/>
+      <point x="433" y="825" type="line"/>
+      <point x="552" y="600" type="line"/>
+      <point x="737" y="825" type="line"/>
+      <point x="971" y="825" type="line"/>
+      <point x="645" y="444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>805</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

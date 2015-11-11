@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.Dalecarlian_runes" format="1">
+  <advance width="858"/>
+  <unicode hex="E080"/>
+  <outline>
+    <contour>
+      <point x="735" y="458" type="line"/>
+      <point x="798" y="885" type="line"/>
+      <point x="935" y="885" type="line"/>
+      <point x="872" y="458" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="796" type="line"/>
+      <point x="311" y="796" type="line"/>
+      <point x="253" y="407" type="line"/>
+      <point x="358" y="449"/>
+      <point x="459" y="497"/>
+      <point x="561" y="543" type="curve"/>
+      <point x="625" y="542" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="408" y="0" type="line"/>
+      <point x="466" y="390" type="line"/>
+      <point x="361" y="348"/>
+      <point x="261" y="299"/>
+      <point x="159" y="253" type="curve"/>
+      <point x="95" y="254" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

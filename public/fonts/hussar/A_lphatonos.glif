@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphatonos" format="1">
+  <advance width="915"/>
+  <unicode hex="0386"/>
+  <outline>
+    <contour>
+      <point x="243" y="738" type="line"/>
+      <point x="392" y="982" type="line"/>
+      <point x="512" y="915" type="line"/>
+      <point x="319" y="691" type="line"/>
+    </contour>
+    <contour>
+      <point x="665" y="825" type="line"/>
+      <point x="877" y="0" type="line"/>
+      <point x="675" y="0" type="line"/>
+      <point x="637" y="165" type="line"/>
+      <point x="323" y="165" type="line"/>
+      <point x="239" y="0" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="491" y="825" type="line"/>
+    </contour>
+    <contour>
+      <point x="598" y="330" type="line"/>
+      <point x="539" y="570" type="line"/>
+      <point x="412" y="330" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>165</integer>
+            <key>width</key>
+            <integer>165</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>805</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
