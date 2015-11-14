@@ -1,9 +1,20 @@
 'use strict';
 Template.nav.created = function() {
   // Closes the Responsive Menu on Menu Item Click
-  $('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+  $('body').scrollspy({target: '.navbar-fixed-top'});
+
+  // $('.navbar-collapse a').click(function(){
+  //   console.log('CLICKED!');
+  //   $('.navbar-toggle:visible').click();
+  // });
+  $(function() {
+    $('.nav a').on('click', function() {
+      if ($('.navbar-toggle').css('display') !== 'none') {
+        $('.navbar-toggle').trigger('click');
+      }
+    });
   });
+
   $(window).scroll(function() {
     if ($(document).scrollTop() > 300) {
       $('nav').addClass('navbar-shrink');

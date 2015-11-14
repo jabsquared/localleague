@@ -5,6 +5,7 @@
 'use strict';
 Template.body.created = function() {
   $('body').scrollspy({target: '.navbar-fixed-top'});
+
   $(function() {
     $('a.page-scroll').bind('click', function(event) {
       var $anchor = $(this);
