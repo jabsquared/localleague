@@ -1,10 +1,12 @@
 @import "../../global/scss/variables";
+@import "../../global/scss/mixins";
 
 .path {
   .timeline {
     list-style: none;
     padding: 0;
     position: relative;
+    color: black;
 
     &:before {
       top: 0;
@@ -103,7 +105,7 @@
       h4 {
         margin-top: 0;
         color: inherit;
-
+        @extend .heading-font;
         &.subheading {
           text-transform: none;
         }
@@ -111,6 +113,7 @@
     }
 
     .timeline-body {
+      @extend .body-font;
       > p,
       > ul {
         margin-bottom: 0;
