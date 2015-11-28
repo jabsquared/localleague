@@ -1,1 +1,1 @@
-Meteor.subscribe('ideas');
+Meteor.subscribe('emailDB');

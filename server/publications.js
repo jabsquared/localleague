@@ -1,4 +1,4 @@
 'use strict';
-Meteor.publish('ideas', function() {
-  return Ideas.find();
+Meteor.publish('emailDB', function() {
+  return EmailDB.find();
 });
