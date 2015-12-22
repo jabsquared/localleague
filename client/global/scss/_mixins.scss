@@ -8,6 +8,11 @@
   src: url('fonts/hussar/hussarbd-web.ttf');
 }
 
+@font-face {
+  font-family: 'Recharge';
+  src: url('fonts/recharge/recharge-bd.ttf');
+}
+
 @mixin placeholder-color {
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
