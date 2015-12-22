@@ -1,47 +1,45 @@
 @font-face {
   font-family: 'SCP';
-  src: url('fonts/poireto/PoiretOne-Regular.ttf');
+  src: url(fonts/poireto/PoiretOne-Regular.ttf);
 }
-
 @font-face {
   font-family: 'Hussar';
-  src: url('fonts/hussar/hussarbd-web.ttf');
+  src: url(fonts/hussar/hussarbd-web.ttf);
 }
-
 @font-face {
   font-family: 'Recharge';
-  src: url('fonts/recharge/recharge-bd.ttf');
+  src: url(fonts/recharge/recharge-bd.ttf);
 }
-
 @mixin placeholder-color {
-  ::-webkit-input-placeholder {
+   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: $light-gray;
   }
-
-:-moz-placeholder {
+   :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: $light-gray;
     opacity: 1;
   }
-
-::-moz-placeholder {
+   ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: $light-gray;
     opacity: 1;
   }
-
-:-ms-input-placeholder {
+   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: $light-gray;
   }
 }
-
 .heading-font {
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
-
 .body-font {
-	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heading-recharged {
+  font-family: 'Recharge';
+  src: url(fonts/recharge/recharge-bd.ttf);
+
+  // text-transform: lowercase;
 }
