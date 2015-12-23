@@ -10,6 +10,9 @@
   font-family: 'Recharge';
   src: url(fonts/recharge/recharge-bd.ttf);
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 @mixin placeholder-color {
    ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
@@ -36,19 +39,17 @@
 }
 
 .body-font {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .heading-recharged {
   font-family: 'Recharge';
-  src: url(fonts/recharge/recharge-bd.ttf);
   // text-transform: lowercase;
   // text-transform: uppercase;
 }
 
 .content-recharged {
-  font-family: 'Recharge';
-  src: url(fonts/recharge/recharge-bd.ttf);
+  font-family: 'Open Sans', sans-serif;
   // text-transform: lowercase;
   // text-transform: uppercase;
 }
