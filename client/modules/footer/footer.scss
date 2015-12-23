@@ -1,9 +1,13 @@
 @import "../../global/scss/variables";
+@import "../../global/scss/mixins";
+
 /* Footer */
 footer {
   padding: 100px 0;
   color: $white;
   background: black;
+
+  @extend .heading-recharged;
 
   img {
     width: 45vw;

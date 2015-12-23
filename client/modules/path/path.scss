@@ -2,11 +2,12 @@
 @import "../../global/scss/mixins";
 
 .path {
+  @extend .heading-recharged;
   .timeline {
     list-style: none;
     padding: 0;
     position: relative;
-    color: black;
+    color: $black;
     &:before {
       top: 0;
       bottom: 0;
@@ -93,14 +94,17 @@
         color: inherit;
 
         //font implementation here from mixins
-        @extend .heading-recharged;
+        @extend .content-font;
+
         &.subheading {
           text-transform: none;
         }
       }
     }
     .timeline-body {
+
       @extend .body-font;
+
       > p,
       > ul {
         margin-bottom: 0;

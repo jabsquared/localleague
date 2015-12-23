@@ -34,12 +34,32 @@
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
+
 .body-font {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .heading-recharged {
   font-family: 'Recharge';
   src: url(fonts/recharge/recharge-bd.ttf);
-
   // text-transform: lowercase;
+  // text-transform: uppercase;
 }
+
+.content-recharged {
+  font-family: 'Recharge';
+  src: url(fonts/recharge/recharge-bd.ttf);
+  // text-transform: lowercase;
+  // text-transform: uppercase;
+}
+
+
+// @mixin border-radius($radius) {
+//   -webkit-border-radius: $radius;
+//      -moz-border-radius: $radius;
+//       -ms-border-radius: $radius;
+//           border-radius: $radius;
+// }
+// .box {
+//   @include border-radius(10px);
+// }

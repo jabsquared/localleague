@@ -1,18 +1,28 @@
 @import "../../global/scss/variables";
+@import "../../global/scss/mixins";
+
 /* Services */
 .missions {
   // padding: 45px 0;
   background-color: $white;
   color: $black;
-}
+  @extend .heading-recharged;
+  // @extend .content-recharged;
 
-.mission-item {
-  margin-bottom: 27px;
+  .mission-item {
+    margin-bottom: 27px;
 
-  p {
-    display: block;
-    text-align: justify;
-    text-justify: inter-word;
+    min-width: 180px;
 
+    h3 strong {
+      font-family: 'Recharge';
+      font-size: 18px;
+    }
+
+    h4 {
+      @extend .body-font;
+      // display: block;
+      // text-align: justify;
+    }
   }
 }

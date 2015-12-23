@@ -13,6 +13,9 @@
   background-size: cover;
   -o-background-size: cover;
 
+  @extend .heading-recharged;
+  text-transform: uppercase;
+
   img {
     width: 50%;
 
