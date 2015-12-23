@@ -54,9 +54,10 @@
         margin-left: 0;
         width: 80px;
         height: 80px;
+        font-size: 45px;
         position: absolute;
         z-index: 100;
-        background-color: $brand-primary;
+        background-color: $black;
         color: white;
         border-radius: 100%;
         border: 7px solid #f1f1f1;
@@ -130,6 +131,7 @@
           height: 100px;
           left: 50%;
           margin-left: -50px;
+          font-size: 63px;
           h4 {
             font-size: 13px;
             margin-top: 16px;
@@ -155,6 +157,7 @@
           width: 150px;
           height: 150px;
           margin-left: -75px;
+          font-size: 99px;
           h4 {
             font-size: 18px;
             margin-top: 30px;
@@ -177,6 +180,7 @@
         .timeline-image {
           width: 170px;
           height: 170px;
+          font-size: 108px;
           margin-left: -85px;
           h4 {
             margin-top: 40px;

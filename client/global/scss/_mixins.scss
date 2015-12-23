@@ -1,8 +1,4 @@
 @font-face {
-  font-family: 'SCP';
-  src: url(fonts/poireto/PoiretOne-Regular.ttf);
-}
-@font-face {
   font-family: 'Hussar';
   src: url(fonts/hussar/hussarbd-web.ttf);
 }
@@ -33,10 +29,11 @@
     color: $light-gray;
   }
 }
-.heading-font {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-}
+
+// .heading-font {
+//   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   text-transform: uppercase;
+// }
 
 .body-font {
   font-family: 'Open Sans', 'Roboto', Helvetica, Arial, sans-serif;
@@ -44,12 +41,6 @@
 
 .heading-recharged {
   font-family: 'Recharge';
-  // text-transform: lowercase;
-  // text-transform: uppercase;
-}
-
-.content-recharged {
-  font-family: 'Open Sans', sans-serif;
   // text-transform: lowercase;
   // text-transform: uppercase;
 }
