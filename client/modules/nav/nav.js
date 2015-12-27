@@ -3,6 +3,7 @@ Template.nav.created = function() {
   // Closes the Responsive Menu on Menu Item Click
   $('body').scrollspy({target: '.navbar-fixed-top'});
 
+
   // $('.navbar-collapse a').click(function(){
   //   console.log('CLICKED!');
   //   $('.navbar-toggle:visible').click();
