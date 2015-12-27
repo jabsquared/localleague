@@ -24,3 +24,5 @@ pagebakers:ionicons
 mrt:jquery-easing
 accounts-ui
 accounts-password
+iron:router
+slam310:smooth-scroll
