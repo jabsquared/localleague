@@ -3,15 +3,15 @@
 
 #registration {
   height: 100vh;
-  padding: 36vh 0;
-  color: black;
-  background: $white;
+  padding: 26vh 0;
+  color: $white;
+  background: black;
 
   @extend .heading-recharged;
 
   input {
     // border-radius: 45px !important;
-
+    margin: 1em auto;
     background-color: $black !important;
     //border-bottom-left-radius: 45px !important;
     //border-top-left-radius: 45px !important;
@@ -20,7 +20,7 @@
   }
 
   .call {
-    color: $black;
+    color: $white;
     font-weight: bolder;
     font-size: 45px;
   }

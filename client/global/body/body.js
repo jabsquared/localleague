@@ -97,5 +97,5 @@ Router.route('/', function () {
 });
 
  Router.route('/reg', function () {
-   this.render('reg');
+   this.render('registration');
  });
