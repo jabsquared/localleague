@@ -4,19 +4,6 @@ Template.nav.created = function() {
   $('body').scrollspy({target: '.navbar-fixed-top'});
 
 
-
-    $(function() {
-      $('a.page-scroll').bind('click', function(event) {
-        console.log("Clicked");
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-          scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-      });
-
-    });
-
   // $('.navbar-collapse a').click(function(){
   //   console.log('CLICKED!');
   //   $('.navbar-toggle:visible').click();
