@@ -1,0 +1,32 @@
+@import "../../global/scss/variables";
+@import "../../global/scss/mixins";
+
+.registration {
+  height: 100vh;
+  padding: 36vh 0;
+  color: black;
+  background: $white;
+
+  @extend .heading-recharged;
+
+  input {
+    // border-radius: 45px !important;
+
+    background-color: $black !important;
+    //border-bottom-left-radius: 45px !important;
+    //border-top-left-radius: 45px !important;
+    // width: 45vw;
+    border-color: transparent !important;
+  }
+
+  .call {
+    color: $black;
+    font-weight: bolder;
+    font-size: 45px;
+  }
+
+  input:focus {
+    color: $white !important;
+    border-color: $orange !important;
+  }
+}
