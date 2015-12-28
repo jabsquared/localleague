@@ -27,5 +27,4 @@ Template.footer.events({
       Meteor.call('addUser', user, showAlert);
     }
   }
-
 });
