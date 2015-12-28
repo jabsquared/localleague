@@ -8,7 +8,7 @@ Router.route('/reg', function () {
 });
 
 Router.route('/stripe', function () {
-  this.render('signup');
+  this.render('payment');
 })
 
 Meteor.startup(function () {
