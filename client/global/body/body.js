@@ -92,6 +92,18 @@
 
 
 
+Meteor.startup(function() {
+  Stripe.setPublishableKey('pk_test_gGsssQZSj9M6t5prPRcZhp8s');
+
+});
+
+Meteor.startup(function() {
+    var handler = StripeCheckout.configure({
+        key: 'pk_test_gGsssQZSj9M6t5prPRcZhp8s',
+        token: function(token) {}
+    });
+});
+
 Router.route('/', function () {
   this.render('home');
 });
