@@ -1,50 +1,52 @@
 <template name="registration">
 
-    <!-- Navigation -->
-    {{> nav}}
+  <!-- Navigation -->
+  {{> nav}}
 
-    <form id="registration">
-        <div class="container">
-            <div class="row">
-                <div class="col-sx-12">
-                    <div class="text-center">
-                        <h4>
-                            <strong class="call">
-                                League Registration Form
-                            </strong>
-                        </h4>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <div class="form-group-lg">
-                        <input required type="text" class="input-lg form-control" placeholder="First Name*" value="" name="fname">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <div class="form-group-lg">
-                        <input required type="text" class="input-lg form-control" placeholder="Last Name*" value="" name="lname">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <div class="form-group-lg">
-                        <input type="email" class="input-lg form-control" placeholder="Email*" value="" name="email">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <div class="form-group-lg">
-                        <input required type="number" class="input-lg form-control" placeholder="Phone Number*" value="" name="phone">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12">
-                    <div class="form-group-lg">
-                        <input required type="text" class="input-lg form-control" placeholder="League Name*" value="" name="league">
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-light btn-lg">
-                    Sign up!
-                </button>
-            </div>
+  <form id="registration">
+    <div class="container">
+      <div class="row">
+        <div class="col-sx-12">
+          <div class="text-center">
+            <h4>
+              <strong class="call">
+                League Registration Form
+              </strong>
+            </h4>
+          </div>
         </div>
-    </form>
+        <div class="col-xs-12 col-sm-6">
+          <div class="form-group-lg">
+            <input required type="text" class="input-lg form-control" placeholder="First Name*" value="" name="fname">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="form-group-lg">
+            <input required type="text" class="input-lg form-control" placeholder="Last Name*" value="" name="lname">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="form-group-lg">
+            <input type="email" class="input-lg form-control" placeholder="Email*" value="" name="email">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="form-group-lg">
+            <input required type="number" class="input-lg form-control" placeholder="Phone Number*" value="" name="phone">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <div class="form-group-lg">
+            <input required type="text" class="input-lg form-control" placeholder="League Name*" value="" name="league">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-light btn-lg">
+          Sign up!
+        </button>
+      </div>
+    </div>
+  </form>
+
+  {{> footer}}
 
 </template>
