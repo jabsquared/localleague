@@ -7,6 +7,10 @@ Router.route('/reg', function () {
   this.render('registration');
 });
 
+Router.route('/stripe', function () {
+  this.render('signup');
+})
+
 Meteor.startup(function () {
 
 

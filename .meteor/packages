@@ -27,3 +27,4 @@ accounts-password
 iron:router
 jshint
 mrgalaxy:stripe
+momentjs:moment
