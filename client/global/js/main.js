@@ -11,6 +11,10 @@ Router.route('/reg', function () {
   this.render('registration');
 });
 
+Meteor.startup(function () {
+  smoothScroll.init();
+});
+
 // Template.body.created = function() {
 //   // $('body').scrollspy({target: '.navbar-fixed-top'});
 //
