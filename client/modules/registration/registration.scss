@@ -1,0 +1,43 @@
+@import "../../global/scss/variables";
+@import "../../global/scss/mixins";
+
+#registration {
+  height: 100vh;
+  padding: 26vh 0;
+  color: $white;
+  background: black;
+
+  @extend .heading-recharged;
+
+  input {
+    // border-radius: 45px !important;
+    margin: 1em auto;
+    background-color: $black !important;
+    //border-bottom-left-radius: 45px !important;
+    //border-top-left-radius: 45px !important;
+    // width: 45vw;
+    border-color: transparent !important;
+  }
+
+  .call {
+    color: $white;
+    font-weight: bolder;
+    font-size: 45px;
+  }
+
+  .btn-light {
+    width: 100%;
+    border-radius: 6px;
+    margin: 1em auto;
+    background-color: $white;
+  }
+
+  .btn-light:hover {
+    color: #fed136;
+  }
+
+  input:focus {
+    color: $white !important;
+    border-color: $orange !important;
+  }
+}
