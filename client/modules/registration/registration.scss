@@ -25,6 +25,16 @@
     font-size: 45px;
   }
 
+  .btn-light {
+    width: 80%;
+    margin: 1em auto;
+    background-color: $white;
+  }
+
+  .btn-light:hover {
+    color: #942a25;
+  }
+
   input:focus {
     color: $white !important;
     border-color: $orange !important;
