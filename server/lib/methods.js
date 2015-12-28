@@ -32,7 +32,6 @@ Meteor.methods({
     // });
 
     LeagueDB.insert({
-      _id: null,
       firstName: league.firstName,
       lastName: league.lastName,
       email: league.email,
@@ -48,6 +47,7 @@ Meteor.methods({
           // return console.log(error);
         }
         else if(onSuccess) {
+          console.log('League info successfully submitted!');
           onSuccess();
         }
       }
