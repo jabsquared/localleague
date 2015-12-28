@@ -7,7 +7,7 @@ Router.route('/reg', function () {
   this.render('registration');
 });
 
-Router.route('/stripe', function () {
+Router.route('/payment', function () {
   this.render('payment');
 })
 

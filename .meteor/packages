@@ -29,3 +29,5 @@ jshint
 mrgalaxy:stripe
 momentjs:moment
 zimme:active-route
+velocityjs:velocityjs
+mrt:modernizr-meteor
