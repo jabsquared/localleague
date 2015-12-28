@@ -2,7 +2,15 @@
 // // $("#success-alert").hide();
 // // $("#success-alert").toggleClass("active");
 // // $("#success-alert").slideUp();
-// 'use strict';
+'use strict';
+Router.route('/', function () {
+  this.render('home');
+});
+
+Router.route('/reg', function () {
+  this.render('registration');
+});
+
 // Template.body.created = function() {
 //   // $('body').scrollspy({target: '.navbar-fixed-top'});
 //
@@ -16,19 +24,7 @@
 //     });
 //
 //   });
-//
-//   // Closes the sidebar menu
-//   $("#menu-close").click(function(e) {
-//     e.preventDefault();
-//     $("#sidebar-wrapper").toggleClass("active");
-//   });
-//
-//   // Opens the sidebar menu
-//   $("#menu-toggle").click(function(e) {
-//     e.preventDefault();
-//     $("#sidebar-wrapper").toggleClass("active");
-//   });
-//
+
 //   // Scrolls to the selected menu item on the page
 //   $(function() {
 //     $('a[href*=#]:not([href=#])').click(function() {
@@ -89,13 +85,3 @@
 //   //   });
 // };
 //
-
-
-
-Router.route('/', function () {
-  this.render('home');
-});
-
- Router.route('/reg', function () {
-   this.render('registration');
- });

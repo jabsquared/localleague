@@ -105,6 +105,7 @@
     "_": false,
     "$": false,
     "Router": false,
-    "EmailDB" : true
+    "EmailDB" : true,
+    "UserDB" : true
   }
 }
