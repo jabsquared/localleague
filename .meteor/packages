@@ -28,3 +28,4 @@ iron:router
 jshint
 mrgalaxy:stripe
 momentjs:moment
+zimme:active-route
