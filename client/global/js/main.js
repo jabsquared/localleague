@@ -8,10 +8,9 @@ Router.route('/reg', function () {
 });
 
 Meteor.startup(function () {
-
+  new WOW().init();
 
   // Stripe Setup:
-
   Stripe.setPublishableKey('pk_test_gGsssQZSj9M6t5prPRcZhp8s');
   // var handler = StripeCheckout.configure({
   //   key: 'pk_test_gGsssQZSj9M6t5prPRcZhp8s',

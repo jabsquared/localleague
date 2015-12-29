@@ -3,15 +3,15 @@
 
 /* Services */
 .missions {
+
   // padding: 45px 0;
   background-color: $white;
   color: $black;
   @extend .heading-recharged;
-  // @extend .content-recharged;
 
+  // @extend .content-recharged;
   .mission-item {
     margin-bottom: 27px;
-
     min-width: 180px;
 
     h3 strong {
@@ -21,6 +21,7 @@
 
     h4 {
       @extend .body-font;
+
       // display: block;
       // text-align: justify;
     }
