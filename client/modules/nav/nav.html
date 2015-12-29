@@ -25,6 +25,8 @@
             <a class="page-scroll" href="#missions">Why</a>
           </li>
           -->
+
+          <!-- if the Template reg is not rendered render these Templates -->
             {{#if isNotActiveRoute 'reg'}}
                 <li>
                     <a class="page-scroll" href="./#missions">
@@ -41,6 +43,12 @@
                 <li>
                     <a class="page-scroll" href="./#signup">
                         Sign-up
+                    </a>
+                </li>
+
+                <li>
+                    <a class="page-scroll" href="./payment">
+                        Purchase
                     </a>
                 </li>
             {{/if}}
