@@ -1,7 +1,9 @@
 @import "../../global/scss/variables";
 @import "../../global/scss/mixins";
-.pricing {
-  background: $gray-darkest;
+.tiers {
+  .navbar-default {
+    background: $gray-darkest;
+  }
   .payment {
     * {
       margin: 0;

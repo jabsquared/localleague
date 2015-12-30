@@ -27,39 +27,37 @@
           -->
 
           <!-- if the Template reg is not rendered render these Templates -->
-            {{#if isNotActiveRoute 'reg'}}
-                <li>
-                    <a class="page-scroll" href="./#missions">
+          {{#if isNotActiveRoute 'reg'}}
+          <li>
+            <a class="page-scroll" href="./#missions">
                         How
                     </a>
-                </li>
+          </li>
 
-                <li>
-                    <a class="page-scroll" href="./#path">
+          <li>
+            <a class="page-scroll" href="./#path">
                         What
                     </a>
-                </li>
+          </li>
 
-                <li>
-                    <a class="page-scroll" href="./#signup">
+          <li>
+            <a class="page-scroll" href="./#signup">
                         Sign-up
                     </a>
-                </li>
+          </li>
 
-                <li>
-                    <a class="page-scroll" href="./payment">
+          <li>
+            <a class="page-scroll" href="./payment">
                         Purchase
                     </a>
-                </li>
-            {{/if}}
-
-            {{#if isActiveRoute 'reg'}}
-                <li>
-                    <a class="page-scroll" href="./#top">
+          </li>
+          {{/if}} {{#if isActiveRoute 'reg'}}
+          <li>
+            <a class="page-scroll" href="./#top">
                         Home
                     </a>
-                </li>
-            {{/if}}
+          </li>
+          {{/if}}
 
         </ul>
       </div>
