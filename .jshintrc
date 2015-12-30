@@ -107,6 +107,7 @@
     "Router": true,
     "EmailDB" : true,
     "UserDB" : true,
-    "Stripe" : true
+    "Stripe" : true,
+    "WOW": true
   }
 }
