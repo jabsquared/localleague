@@ -27,7 +27,6 @@
           -->
 
           <!-- if the Template reg is not rendered render these Templates -->
-          {{#if isNotActiveRoute 'reg'}}
           <li>
             <a class="page-scroll" href="./#missions">
                         How
@@ -51,13 +50,11 @@
                         Purchase
                     </a>
           </li>
-          {{/if}} {{#if isActiveRoute 'reg'}}
           <li>
             <a class="page-scroll" href="./#top">
                         Home
                     </a>
           </li>
-          {{/if}}
 
         </ul>
       </div>

@@ -1,7 +1,9 @@
 'use strict';
-Router.route('/', function () {
-  this.render('home');
-});
+
+// lines 4-6 is just not a good usage of meteor
+// Router.route('/', function () {
+//   this.render('home');
+// });
 
 Router.route('/reg', function () {
   this.render('registration');
