@@ -2,8 +2,18 @@
 @import "../../global/scss/mixins";
 .tiers {
   .navbar-default {
+    // TODO
+    // change navbar to static top
     background: $gray-darkest;
-  }
+    }
+  
+
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+
+    position: static;
+}
+
   .payment {
     * {
       margin: 0;
