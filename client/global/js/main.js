@@ -1,14 +1,31 @@
 'use strict';
 
 // lines 4-6 is just not a good usage of meteor
-Router.route('/', function () {
-  this.render('home');
+// Router.route('/', function () {
+//   this.render('home');
+// });
+
+
+
+'use strict';
+
+
+console.log("home Template created");
+
+FlowRouter.route('/', {
+  action: function() {
+    console.log("working route");
+    BlazeLayout.render("layout", {
+      layout: "home"
+    });
+  }
 });
 
-Router.route('/reg', function () {
-  this.render('registration');
-});
 //
+//  Router.route('/reg', function () {
+//   // this.render('registration');
+// });
+
 // Router.route('/payment', function () {
 //   this.render('payment');
 // })

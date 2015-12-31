@@ -1,23 +1,14 @@
 <template name="home">
-
-  {{> header}} {{> missions}} {{> path}} {{> signup}} {{> footer}}
-
-
-
+  {{> nav}} {{> header}} {{> missions}} {{> path}} {{> signup}} {{> footer}}
 </template>
 
-<template name="onlyNav">
-
+<template name="layout">
   <div class="alert alert-success" id="success-alert">
     Thank you for signing up! We will notify you once Stryke is beta-stable.
   </div>
-
-
   <main>
     <!-- template name can be anything check -->
-    {{>Template.dynamic template=nav}}
+    {{>Template.dynamic template=layout}}
   </main>
-
-
 
 </template>
