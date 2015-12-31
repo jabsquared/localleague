@@ -1,17 +1,17 @@
 'use strict';
 
 // lines 4-6 is just not a good usage of meteor
-// Router.route('/', function () {
-//   this.render('home');
-// });
+Router.route('/', function () {
+  this.render('home');
+});
 
 Router.route('/reg', function () {
   this.render('registration');
 });
-
-Router.route('/payment', function () {
-  this.render('payment');
-})
+//
+// Router.route('/payment', function () {
+//   this.render('payment');
+// })
 
 Meteor.startup(function () {
   new WOW().init();

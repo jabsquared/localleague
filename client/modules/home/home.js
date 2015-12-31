@@ -1,16 +1,13 @@
 'use strict';
-Template.home.created = function() {
-  console.log("home Template created");
-
-      console.log("routing better");
-      FlowRouter.route('/', {
-        action: function() {
-          BlazeLayout.render("home", {
-            content: "nav"
-          });
-        }
-      });
 
 
+console.log("home Template created");
 
-};
+FlowRouter.route('/', {
+  action: function() {
+    console.log("working route");
+    BlazeLayout.render("onlyNav", {
+      nav: "nav"
+    });
+  }
+});
