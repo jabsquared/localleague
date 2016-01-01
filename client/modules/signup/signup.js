@@ -15,6 +15,8 @@ Template.signup.events({
       email: event.target.email.value
     };
 
+
+
     function showAlert() {
       $('#success-alert')
         .fadeIn(900)
@@ -27,5 +29,6 @@ Template.signup.events({
     if (user) {
       Meteor.call('addUser', user, showAlert);
     }
+    console.log(user);
   }
 });
