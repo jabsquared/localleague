@@ -1,0 +1,34 @@
+@import "../../global/scss/variables";
+@import "../../global/scss/mixins";
+.proof {
+
+  // padding: 45px 0;
+  background-color: $white;
+  color: $black;
+  @extend .heading-recharged;
+
+  // @extend .content-recharged;
+  .mission-item {
+    margin-bottom: 27px;
+    min-width: 180px;
+    h3 strong {
+      font-family: 'Recharge';
+      font-size: 18px;
+    }
+    h4 {
+      @extend .body-font;
+
+      // display: block;
+      // text-align: justify;
+    }
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  .img-portfolio {
+    margin: 0 auto;
+  }
+  .img-portfolio:hover {
+    opacity: 0.8;
+  }
+}
