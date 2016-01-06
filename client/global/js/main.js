@@ -1,4 +1,8 @@
 'use strict';
+Meteor.subscribe('emailDB');
+
+Meteor.subscribe('leagueDB');
+
 Router.route('/', function () {
   this.render('home');
 });
@@ -7,38 +11,21 @@ Router.route('/reg', function () {
   this.render('registration');
 });
 
+Router.route('/sup', function () {
+  this.render('signup');
+})
+
 Meteor.startup(function () {
   new WOW().init();
 
   // Stripe Setup:
-  Stripe.setPublishableKey('pk_test_gGsssQZSj9M6t5prPRcZhp8s');
+  // Stripe.setPublishableKey('pk_test_gGsssQZSj9M6t5prPRcZhp8s');
   // var handler = StripeCheckout.configure({
   //   key: 'pk_test_gGsssQZSj9M6t5prPRcZhp8s',
   //   token: function (token) {
   //
   //   }
   // });
-
-  $(function () {
-    $('a[href*=#]:not([href=#])')
-      .click(function () {
-        if(location.pathname.replace(/^\//, '') ===
-          this.pathname.replace(/^\//, '') &&
-          location.hostname === this.hostname) {
-          var target = $(this.hash);
-          target = target.length ?
-            target : $('[name=' + this.hash.slice(1) + ']');
-          if(target.length) {
-            $('html,body')
-              .animate({
-                scrollTop: target.offset()
-                  .top
-              }, 1000);
-            return false;
-          }
-        }
-      });
-  });
 
 });
 

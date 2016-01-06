@@ -6,4 +6,5 @@ Meteor.publish('emailDB', function() {
 
 Meteor.publish('leagueDB', function() {
   return LeagueDB.find();
+
 });

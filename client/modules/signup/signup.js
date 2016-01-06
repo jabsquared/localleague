@@ -17,9 +17,9 @@ Template.signup.events({
 
     function showAlert() {
       $('#success-alert')
-        .fadeIn(900)
-        .delay(900)
-        .fadeOut(900);
+        .fadeIn(4500)
+        .delay(4500)
+        .fadeOut(4500);
       //TODO: Add a reminder to test sarah beta
       // console.log("Cool");
     }
@@ -27,5 +27,6 @@ Template.signup.events({
     if (user) {
       Meteor.call('addUser', user, showAlert);
     }
+    console.log(user);
   }
 });
