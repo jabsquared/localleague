@@ -28,3 +28,6 @@ iron:router
 jshint
 mrgalaxy:stripe
 timmyg:wow
+momentjs:moment
+zimme:active-route
+houston:admin

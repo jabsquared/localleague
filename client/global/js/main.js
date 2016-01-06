@@ -1,4 +1,8 @@
 'use strict';
+Meteor.subscribe('emailDB');
+
+Meteor.subscribe('leagueDB');
+
 Router.route('/', function () {
   this.render('home');
 });
@@ -6,6 +10,10 @@ Router.route('/', function () {
 Router.route('/reg', function () {
   this.render('registration');
 });
+
+Router.route('/sup', function () {
+  this.render('signup');
+})
 
 Meteor.startup(function () {
   new WOW().init();
