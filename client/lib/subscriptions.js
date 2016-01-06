@@ -1,2 +1,2 @@
 Meteor.subscribe('emailDB');
-Meteor.subscribe('league');
+Meteor.subscribe('leagueDB');
