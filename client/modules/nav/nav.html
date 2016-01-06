@@ -25,33 +25,31 @@
             <a class="page-scroll" href="#missions">Why</a>
           </li>
           -->
-            {{#if isNotActiveRoute 'reg'}}
-                <li>
-                    <a class="page-scroll" href="./#missions">
-                        How
-                    </a>
-                </li>
+          {{#if isNotActiveRoute 'reg'}}
+          <li>
+            <a class="page-scroll" href="./#missions">
+              How
+            </a>
+          </li>
 
-                <li>
-                    <a class="page-scroll" href="./#path">
-                        What
-                    </a>
-                </li>
+          <li>
+            <a class="page-scroll" href="./#path">
+              What
+            </a>
+          </li>
 
-                <li>
-                    <a class="page-scroll" href="./#signup">
-                        Sign-up
-                    </a>
-                </li>
-            {{/if}}
-
-            {{#if isActiveRoute 'reg'}}
-                <li>
-                    <a class="page-scroll" href="./#top">
-                        Home
-                    </a>
-                </li>
-            {{/if}}
+          <li>
+            <a class="page-scroll" href="./#signup">
+              Sign-up
+            </a>
+          </li>
+          {{/if}} {{#if isActiveRoute 'reg'}}
+          <li>
+            <a class="page-scroll" href="./#top">
+              Home
+            </a>
+          </li>
+          {{/if}}
 
         </ul>
       </div>
